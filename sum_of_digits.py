@@ -10,7 +10,7 @@ for i in str(num):
 
 # second method
 
-n=1234567
+n=123456
 sum_n=0
 while True:
     s=n%10
