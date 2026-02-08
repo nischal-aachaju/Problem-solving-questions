@@ -34,3 +34,17 @@
 #     print("Hi I am else block")
 # finally:
 #     print("I am finally block")
+# import pickle
+
+
+# a={"hello":"bye","namesta":"gako"}
+# a_piclek=pickle.dumps(a)
+# print(a_piclek)
+# a_unpickel=pickle.loads(a_piclek)
+# print(a_unpickel)
+
+# with open("a.txt") as f:
+#     print(f.write("hgf"))
+
+# f=open("a.txt") 
+# print(f.readlines())
