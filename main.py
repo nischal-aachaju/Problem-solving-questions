@@ -48,3 +48,10 @@
 
 # f=open("a.txt") 
 # print(f.readlines())
+
+
+print("hello\\") ## back slash dluble
+# print("hello\")  # back slash error
+
+print("hello/") #hello/
+print("hello//") #hello//
