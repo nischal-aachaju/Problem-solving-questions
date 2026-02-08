@@ -50,8 +50,31 @@
 # print(f.readlines())
 
 
-print("hello\\") ## back slash dluble
-# print("hello\")  # back slash error
+# print("hello\\") ## back slash dluble
+# # print("hello\")  # back slash error
 
-print("hello/") #hello/
-print("hello//") #hello//
+# print("hello/") #hello/
+# print("hello//") #hello//
+# b = [1, 2, 3]
+# a=list(map(lambda x:x*2,b))
+# print(a)
+# #[2, 4, 6]
+# a = 10
+# b = 20
+print("""
+print(f"{a+b}")
+print("Hello\nWorld")
+print(len(" "))
+
+      """)
+
+# a = 10
+# b = 20
+# # print(a b)
+# print(len(10))
+# a = {1,2,3}
+# print(a[0])
+# name="program"
+# result=name.maketrans("pr","PR")
+# print(name.translate(result))
+# # output =PRogRam
