@@ -89,19 +89,92 @@
 # print(bool(len("")))
 
 # f=open("a.txt","w",encoding="utf-8") 
-# f.write("dfddfgf 😅😅")
+# f.writelines(["dfdddfgfg\n f 😅😅","sdg987"])
 
 # print(0 or 3)
 # print(0 or 5)
 # for i in range(0):
 #       print(i)
-from time import sleep
+# from time import sleep
 
 
-for i in range(2):
+# for i in range(2):
 
-    for j in range(3):
-        if j==1:
-            break
+#     for j in range(3):
+#         if j==1:
+#             break
   
-        print(j,end=" ")
+#         print(j,end=" ")
+
+# a=10
+# b=20
+# print("{0}{1}{c}".format(b,a,c=12))
+
+# x, y = 5, 10
+
+# if x > y:
+#     pass
+# elif x == y:
+#     print("Equal")
+# else:
+#     print("Smaller") if x < y else print("Greater")
+
+# def test(x=[]):
+#     x.append(1)
+#     return x
+
+# print(test())
+# print(test())
+# f = open("sample.txt", "w")
+
+# f.write("Hello\nWorld")
+
+# f.close()
+
+# f = open("sample.txt", "r")
+
+# print(f.readline(),end="")
+
+# f.seek(0)
+
+# print(f.read(5))
+# a = 10
+# b = 5
+# if a > b:
+#     if a + b > 20:
+#         print("A")
+#     elif a - b > 2:
+#         print("B")
+#     else:
+#         print("C")
+# else:
+#     print("D")
+# try:
+
+#     print(1 / 0)
+
+# except:
+
+#     print("A")
+
+# finally:
+
+#     print("B")
+    
+# print("AB")
+
+
+# x = -5
+# if x:
+
+#     if x < 0:
+
+#         print("Success")
+
+#     else:
+
+#         print("Fail")
+
+# else:
+
+#     print("Zero")
