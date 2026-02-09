@@ -61,12 +61,12 @@
 # #[2, 4, 6]
 # a = 10
 # b = 20
-print("""
-print(f"{a+b}")
-print("Hello\nWorld")
-print(len(" "))
+# print("""
+# print(f"{a+b}")
+# print("Hello\nWorld")
+# print(len(" "))
 
-      """)
+#       """)
 
 # a = 10
 # b = 20
@@ -78,3 +78,30 @@ print(len(" "))
 # result=name.maketrans("pr","PR")
 # print(name.translate(result))
 # # output =PRogRam
+
+# s={1,2,3}
+# s.add(4)
+# print(s)
+# s.discard(6)
+# print(s)
+
+# print(len(""))
+# print(bool(len("")))
+
+# f=open("a.txt","w",encoding="utf-8") 
+# f.write("dfddfgf 😅😅")
+
+# print(0 or 3)
+# print(0 or 5)
+# for i in range(0):
+#       print(i)
+from time import sleep
+
+
+for i in range(2):
+
+    for j in range(3):
+        if j==1:
+            break
+  
+        print(j,end=" ")
