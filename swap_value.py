@@ -28,3 +28,14 @@ print(p,q)
 p,q=q,p
 # after swap
 print(p,q)
+
+# method 4 (bitwise and)
+i=100
+j=200
+# before swap
+print(i,j)
+i=i^j
+j=i^j
+i=i^j
+# after swap
+print(i,j)
